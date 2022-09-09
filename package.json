@@ -20,7 +20,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "node index.js",
     "build": "tsc",
     "test": "react-scripts test",
     "postinstall": "tsc",
