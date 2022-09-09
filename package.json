@@ -20,11 +20,11 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node dist/index.js",
     "build": "tsc",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "postinstall":"tsc"
+    "postinstall": "tsc",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
